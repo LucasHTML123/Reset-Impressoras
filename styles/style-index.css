@@ -38,75 +38,20 @@ div#center {
     margin: auto;
 }
 
-h1 {
-    width: min(330px, 345px);
-    margin: auto;
+div#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    color: white;
-    border-bottom: 2px solid wheat;
-    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 2.1em;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+ul {
     position: relative;
-    top: 85px;
-}
-
-input {
-    position: relative;
-    top: 155px;
-    width: min(300px, 315px);
-    border-bottom: 1px solid wheat;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    height: min(40px, 60px);
-    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
-    text-align: left;
-    padding-left: 5px;
-    background-color: transparent;
-    color: white;
-    font-size: 1em;
-}
-
-button {
-    position: relative;
-    top: 190px;
-    border: none;
-    padding: 5px;
-    width: 190px;
-    background-color: rgb(168, 133, 82);
-    color: white;
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 250ms ease;
-    box-shadow: 3px 3px 16px #0000005e;
-}
-
-button:hover {
-    width: 210px;
-    background-color: rgb(100, 74, 34);
-    box-shadow: 3px 3px 16px #0000008f;;
-}
-
-input::placeholder {
-    color: white;
-    font-size: 1em;
-    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
-}
-
-input:focus-visible {
-    outline: none;
-}
-
-ol {
-    position: relative;
-    top: 230px;
+    top: 11px;
     background-color: white;
-    width: min(400px, 450px);
+    width: min(270px, 380px);
     margin: auto;
     list-style-position: inside;
     padding-left: 15px;
@@ -116,7 +61,38 @@ ol {
     box-shadow: 8px 8px 20px #00000038;
 }
 
+ul#first-list {
+    margin-right: 10px;
+}
+ul#second-list {
+    margin-left: 10px;
+}
+
+
 li {
     text-align: left;
     padding: 10px;
+    cursor: pointer;
+    color: rgb(52, 102, 114);
+    font-size: 15px;
+}
+
+li:hover {
+    color: rgb(44, 123, 143);
+    font-size: 15.5px;
+}
+
+#reset {
+    position: relative;
+    background-color: white;
+    width: min(400px, 405px);
+    font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    top: 150px;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 7px 7px 20px #00000047;
+    display: none;
 }
