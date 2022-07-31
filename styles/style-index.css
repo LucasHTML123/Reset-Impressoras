@@ -63,13 +63,8 @@ ul {
 
 ul#first-list {
     margin-right: 10px;
-    width: min(170px, 200px)
+    width: min(315px, 320px);
 }
-ul#second-list {
-    margin-left: 10px;
-    width: min(170px, 200px)
-}
-
 
 li {
     text-align: left;
@@ -85,16 +80,15 @@ li:hover {
 }
 
 #reset {
-    position: relative;
     background-color: white;
     width: min(360px, 405px);
     font-family: 'Roboto Mono', monospace, Arial, Helvetica, sans-serif;
     border-radius: 5px;
-    top: 150px;
     font-weight: normal;
     text-align: left;
     padding: 10px;
     margin: auto;
     box-shadow: 7px 7px 20px #00000047;
     display: none;
+    margin-top: 50px;
 }
